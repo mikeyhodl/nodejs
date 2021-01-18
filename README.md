@@ -82,6 +82,9 @@
 `// Here we emit an event, we pass the event type, 'celebration', as the first argument, and the event data as the second`
 `myEmitter.emit('celebration', 'good times, come on!');`
 
+# Asynchronous JavaScript with Node.js
+![](https://content.codecademy.com/courses/updated_images/EventLoop_Update_1.gif)
+
 
 
 
