@@ -12,6 +12,8 @@
 
 ![Different Back-end Stacks](https://content.codecademy.com/courses/updated_images/Coders-2_Updated_1.gif)
 
+# Running a Program with Node
+
 
 `let noun1 = 'mike';`
 `let adjective = 'silly';`
@@ -24,5 +26,25 @@
 
 ### _RUN_ `node app.js`
 ### **OUTPUT** ![](https://github.com/MikeOwino/nodejs/blob/main/Screenshot%202021-01-18%20173921.jpg)
+
+# Accessing the Process Object
+
+
+`let initialMemory = process.memoryUsage().heapUsed;`
+`let word = process.argv[2];`
+
+`console.log(`Your word is ${word}`)`
+
+`// Create a new array`
+`let wordArray = [];`
+
+`// Loop 1000 times, pushing into the array each time `
+`for (let i = 0; i < 1000; i++){`
+  `wordArray.push(`${word} count: ${i}`)`
+`}`
+
+`console.log(`Starting memory usage: ${initialMemory}. \nCurrent memory usage: ${process.memoryUsage().heapUsed}. \nAfter using the loop to add elements to the array, the process is using ${process.memoryUsage().heapUsed - initialMemory} more bytes of memory.`)`
+
+### _OUTPUT_ ![](https://github.com/MikeOwino/nodejs/blob/main/Screenshot%202021-01-18%20174349.jpg)
 
 
