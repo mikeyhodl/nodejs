@@ -6,7 +6,7 @@
 
 ![Storing Data](https://content.codecademy.com/courses/updated_images/Node_4_v4_Updated_1.svg)
 
-![What is an API?]https://content.codecademy.com/courses/updated_images/Node_5v2__Updated_1.gif)
+![What is an API?](https://content.codecademy.com/courses/updated_images/Node_5v2__Updated_1.gif)
 
 ![Authorization and Authentication](https://content.codecademy.com/courses/server-side-web-dev/NodeAnimation_6.gif)
 
