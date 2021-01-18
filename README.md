@@ -1,4 +1,4 @@
-# nodejs
+# node.js
 
 ![The Web Server](https://content.codecademy.com/courses/updated_images/NodeBackEndFrontEnd_Update_1.gif)
 
