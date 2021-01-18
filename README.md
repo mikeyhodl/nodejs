@@ -12,3 +12,17 @@
 
 ![Different Back-end Stacks](https://content.codecademy.com/courses/updated_images/Coders-2_Updated_1.gif)
 
+
+`let noun1 = 'mike';`
+`let adjective = 'silly';`
+`let noun2 = 'owino';`
+`let verb = 'sing';`
+`let noun3 = 'okumu';`
+
+
+`console.log(`The world's first ${noun1} was a very ${adjective} ${noun2} who loved to ${verb} while eating ${noun3} for every meal.`);`
+
+### _RUN_ `node app.js`
+### **OUTPUT** ![](https://github.com/MikeOwino/nodejs/blob/main/Screenshot%202021-01-18%20173921.jpg)
+
+
