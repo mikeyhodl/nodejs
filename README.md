@@ -86,6 +86,34 @@
 ![](https://content.codecademy.com/courses/updated_images/EventLoop_Update_1.gif)
 
 
+# User Input/Output
+`let {testNumber} = require('./game.js');`
+
+`process.stdout.write("I'm thinking of a number from 1 through 10. What do you think it is? \n(Write \"quit\" to give up.)\n\nIs the number ... ");`
+
+`let playGame = (userInput) => {`
+  `let input = userInput.toString().trim();`
+	`testNumber(input);`
+`};`
+
+`process.stdin.on('data', playGame);`
+
+# Errors
+
+`const api = require('./api.js');`
+
+`// Not an error-first callback`
+`let callbackFunc = (data) => {`
+   `console.log(`Something went right. Data: ${data}\n`);`
+`};`
+  
+`try {`
+  `api.naiveErrorProneAsyncFunction('problematic input', callbackFunc);`
+`} catch(err) {`
+  `console.log(`Something went wrong. ${err}\n`);`
+`}`
+
+
 
 
 
